@@ -1,16 +1,23 @@
 // feetToMile
-function inchToFeet (inch){
-    var feet = inch /12;
-    return feet;
+function feetToMile(feet){
+    var mile = feet /5280;
+    return mile;
 }
-var result = inchToFeet(144);
+var result = feetToMile(7000);
 console.log(result);
+
 // woodCalculator
-function fruitCalculator (mango, apple){
-    var mangoCount = mango *4;
-    var appleCount = apple *4;
-    var totalFruit = mangoCount + appleCount;
-    return totalFruit;
+function woodCalculator (chair, table, khat){
+    var chairCount = chair *1;
+    var tableCount = table *3;
+    var khatCount = khat*5;
+    var totalWood = chairCount + tableCount+ khatCount;
+    return totalWood;
 }
+var woodResult = woodCalculator (6,3,2);
+console.log(woodResult);
+
+
 // brickCalculator
+
 // tinyFriend
